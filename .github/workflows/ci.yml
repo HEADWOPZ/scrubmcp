@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, "cursor/**"]
   pull_request:
     branches: [main]
 
@@ -15,13 +15,9 @@ jobs:
       matrix:
         python-version: ["3.10", "3.12"]
     env:
-      SCRUBMCP_OFFLINE: "1"
+      # Job-wide only. Do NOT set HTTP(S)_PROXY here — it blocks
+      # checkout, setup-python, and pip install from PyPI.
       SCRUBMCP_LOG: "0"
-      NO_PROXY: "*"
-      http_proxy: "http://127.0.0.1:9"
-      https_proxy: "http://127.0.0.1:9"
-      HTTP_PROXY: "http://127.0.0.1:9"
-      HTTPS_PROXY: "http://127.0.0.1:9"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -32,4 +28,6 @@ jobs:
       - name: Compile
         run: python -m compileall -q src tests
       - name: Offline fixture tests
+        env:
+          SCRUBMCP_OFFLINE: "1"
         run: pytest -q

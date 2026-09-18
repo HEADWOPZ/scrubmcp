@@ -148,10 +148,12 @@ False positives happen. Placeholders are cheaper than leaking a seed.
 pytest -q
 ```
 
-GitHub Actions runs the same suite **offline**: fixture dumps under
-`tests/fixtures/dumps/` compared to frozen goldens in
-`tests/fixtures/expected/`. Sockets are blocked in `conftest.py`. Tests assert
-that raw fixture secrets never appear in scrub or detect output.
+GitHub Actions installs the package from PyPI as usual, then runs the same
+suite **offline**: fixture dumps under `tests/fixtures/dumps/` compared to
+frozen goldens in `tests/fixtures/expected/`. Sockets are blocked in
+`conftest.py` for the pytest step only (no dead `HTTP_PROXY` on checkout /
+`pip install`). Tests assert that raw fixture secrets never appear in scrub
+or detect output.
 
 Regenerate goldens after an intentional detector change:
 
