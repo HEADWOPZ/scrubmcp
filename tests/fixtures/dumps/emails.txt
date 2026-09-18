@@ -1,0 +1,2 @@
+Write to alice@example.com and bob.builder@example.org.
+Ignore this sentence with no addresses.

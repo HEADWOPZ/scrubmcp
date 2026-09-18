@@ -1,0 +1,102 @@
+{
+  "counts": {
+    "api_key": 7,
+    "email": 1,
+    "phone": 1,
+    "seed_phrase": 1,
+    "ssn": 1
+  },
+  "findings": [
+    {
+      "detector": "email",
+      "end": 33,
+      "kind": "email",
+      "masked": "a***@example.com",
+      "start": 16,
+      "token": "[EMAIL_1]"
+    },
+    {
+      "detector": "phone_nanp",
+      "end": 56,
+      "kind": "phone",
+      "masked": "***-***-0132",
+      "start": 41,
+      "token": "[PHONE_1]"
+    },
+    {
+      "detector": "ssn",
+      "end": 81,
+      "kind": "ssn",
+      "masked": "***-**-1120",
+      "start": 70,
+      "token": "[SSN_1]"
+    },
+    {
+      "detector": "bip39",
+      "end": 192,
+      "kind": "seed_phrase",
+      "masked": "abandon ***(12 words)*** about",
+      "start": 99,
+      "token": "[SEED_PHRASE_1]"
+    },
+    {
+      "detector": "openai",
+      "end": 252,
+      "kind": "api_key",
+      "masked": "sk-p\u20260xyz",
+      "start": 204,
+      "token": "[API_KEY_1]"
+    },
+    {
+      "detector": "github",
+      "end": 298,
+      "kind": "api_key",
+      "masked": "ghp_\u2026abcd",
+      "start": 261,
+      "token": "[API_KEY_2]"
+    },
+    {
+      "detector": "aws_access_key",
+      "end": 324,
+      "kind": "api_key",
+      "masked": "AKIA\u2026MPLE",
+      "start": 304,
+      "token": "[API_KEY_3]"
+    },
+    {
+      "detector": "slack",
+      "end": 381,
+      "kind": "api_key",
+      "masked": "xoxb\u2026oken",
+      "start": 332,
+      "token": "[API_KEY_4]"
+    },
+    {
+      "detector": "stripe",
+      "end": 421,
+      "kind": "api_key",
+      "masked": "sk_t\u20260001",
+      "start": 390,
+      "token": "[API_KEY_5]"
+    },
+    {
+      "detector": "jwt",
+      "end": 492,
+      "kind": "api_key",
+      "masked": "eyJh\u2026eabc",
+      "start": 427,
+      "token": "[API_KEY_6]"
+    },
+    {
+      "detector": "assigned_secret",
+      "end": 535,
+      "kind": "api_key",
+      "masked": "n0tA\u2026et99",
+      "start": 511,
+      "token": "[API_KEY_7]"
+    }
+  ],
+  "remote_llm": false,
+  "source": "text",
+  "uploads": false
+}

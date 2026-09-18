@@ -1,0 +1,90 @@
+{
+  "counts": {
+    "api_key": 10
+  },
+  "findings": [
+    {
+      "detector": "anthropic",
+      "end": 47,
+      "kind": "api_key",
+      "masked": "sk-a\u20260001",
+      "start": 0,
+      "token": "[API_KEY_1]"
+    },
+    {
+      "detector": "github",
+      "end": 85,
+      "kind": "api_key",
+      "masked": "ghp_\u2026abcd",
+      "start": 48,
+      "token": "[API_KEY_2]"
+    },
+    {
+      "detector": "github_pat",
+      "end": 131,
+      "kind": "api_key",
+      "masked": "gith\u20260001",
+      "start": 86,
+      "token": "[API_KEY_3]"
+    },
+    {
+      "detector": "aws_access_key",
+      "end": 152,
+      "kind": "api_key",
+      "masked": "AKIA\u2026MPLE",
+      "start": 132,
+      "token": "[API_KEY_4]"
+    },
+    {
+      "detector": "slack",
+      "end": 202,
+      "kind": "api_key",
+      "masked": "xoxb\u2026oken",
+      "start": 153,
+      "token": "[API_KEY_5]"
+    },
+    {
+      "detector": "stripe",
+      "end": 234,
+      "kind": "api_key",
+      "masked": "sk_t\u20260001",
+      "start": 203,
+      "token": "[API_KEY_6]"
+    },
+    {
+      "detector": "google_api",
+      "end": 274,
+      "kind": "api_key",
+      "masked": "AIza\u20262345",
+      "start": 235,
+      "token": "[API_KEY_7]"
+    },
+    {
+      "detector": "jwt",
+      "end": 340,
+      "kind": "api_key",
+      "masked": "eyJh\u2026eabc",
+      "start": 275,
+      "token": "[API_KEY_8]"
+    },
+    {
+      "detector": "assigned_secret",
+      "end": 373,
+      "kind": "api_key",
+      "masked": "supe\u2026lue1",
+      "start": 348,
+      "token": "[API_KEY_9]"
+    },
+    {
+      "detector": "eth_privkey",
+      "end": 452,
+      "kind": "api_key",
+      "masked": "0xaa\u2026aaaa",
+      "start": 386,
+      "token": "[API_KEY_10]"
+    }
+  ],
+  "remote_llm": false,
+  "source": "text",
+  "uploads": false
+}

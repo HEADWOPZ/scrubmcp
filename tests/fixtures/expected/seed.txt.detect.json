@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "seed_phrase": 2
+  },
+  "findings": [
+    {
+      "detector": "bip39",
+      "end": 106,
+      "kind": "seed_phrase",
+      "masked": "abandon ***(12 words)*** about",
+      "start": 13,
+      "token": "[SEED_PHRASE_1]"
+    },
+    {
+      "detector": "bip39",
+      "end": 201,
+      "kind": "seed_phrase",
+      "masked": "legal ***(12 words)*** yellow",
+      "start": 126,
+      "token": "[SEED_PHRASE_2]"
+    }
+  ],
+  "remote_llm": false,
+  "source": "text",
+  "uploads": false
+}

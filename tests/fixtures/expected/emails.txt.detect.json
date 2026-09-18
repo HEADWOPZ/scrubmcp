@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "email": 2
+  },
+  "findings": [
+    {
+      "detector": "email",
+      "end": 26,
+      "kind": "email",
+      "masked": "a***@example.com",
+      "start": 9,
+      "token": "[EMAIL_1]"
+    },
+    {
+      "detector": "email",
+      "end": 54,
+      "kind": "email",
+      "masked": "b***@example.org",
+      "start": 31,
+      "token": "[EMAIL_2]"
+    }
+  ],
+  "remote_llm": false,
+  "source": "text",
+  "uploads": false
+}

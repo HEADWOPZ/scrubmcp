@@ -1,0 +1,35 @@
+{
+  "counts": {
+    "phone": 1,
+    "ssn": 2
+  },
+  "findings": [
+    {
+      "detector": "ssn",
+      "end": 25,
+      "kind": "ssn",
+      "masked": "***-**-1120",
+      "start": 14,
+      "token": "[SSN_1]"
+    },
+    {
+      "detector": "ssn",
+      "end": 48,
+      "kind": "ssn",
+      "masked": "***-**-9999",
+      "start": 37,
+      "token": "[SSN_2]"
+    },
+    {
+      "detector": "phone_nanp",
+      "end": 75,
+      "kind": "phone",
+      "masked": "***-***-0132",
+      "start": 63,
+      "token": "[PHONE_1]"
+    }
+  ],
+  "remote_llm": false,
+  "source": "text",
+  "uploads": false
+}

@@ -1,0 +1,8 @@
+{
+  "user": "alice@example.com",
+  "phone": "+1 415 555 0132",
+  "ssn": "078-05-1120",
+  "notes": "seed phrase: abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about",
+  "openai": "sk-proj-THISISNOTAREALOPENAIKEY_abc1234567890xyz",
+  "anthropic": "sk-ant-api03-not-a-real-anthropic-key-value0001"
+}

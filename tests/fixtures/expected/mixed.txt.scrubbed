@@ -1,0 +1,11 @@
+Contact: Alice <[EMAIL_1]> phone [PHONE_1]
+SSN on file: [SSN_1]
+Recovery phrase: [SEED_PHRASE_1]
+openai_key=[API_KEY_1]
+github: [API_KEY_2]
+aws: [API_KEY_3]
+slack: [API_KEY_4]
+stripe: [API_KEY_5]
+jwt: [API_KEY_6]
+assigned: api_key=[API_KEY_7]
+clean sentence: the report and the invoice are on the desk.
