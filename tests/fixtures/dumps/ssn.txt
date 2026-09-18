@@ -1,0 +1,2 @@
+Applicant SSN 078-05-1120 and backup 219-09-9999.
+Phone-shaped 415-555-0132 should not be classified as SSN.

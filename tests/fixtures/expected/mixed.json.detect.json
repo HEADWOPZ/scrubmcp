@@ -1,0 +1,62 @@
+{
+  "counts": {
+    "api_key": 2,
+    "email": 1,
+    "phone": 1,
+    "seed_phrase": 1,
+    "ssn": 1
+  },
+  "findings": [
+    {
+      "detector": "email",
+      "end": 30,
+      "kind": "email",
+      "masked": "a***@example.com",
+      "start": 13,
+      "token": "[EMAIL_1]"
+    },
+    {
+      "detector": "phone_nanp",
+      "end": 60,
+      "kind": "phone",
+      "masked": "***-***-0132",
+      "start": 45,
+      "token": "[PHONE_1]"
+    },
+    {
+      "detector": "ssn",
+      "end": 84,
+      "kind": "ssn",
+      "masked": "***-**-1120",
+      "start": 73,
+      "token": "[SSN_1]"
+    },
+    {
+      "detector": "bip39",
+      "end": 205,
+      "kind": "seed_phrase",
+      "masked": "abandon ***(12 words)*** about",
+      "start": 112,
+      "token": "[SEED_PHRASE_1]"
+    },
+    {
+      "detector": "openai",
+      "end": 269,
+      "kind": "api_key",
+      "masked": "sk-p\u20260xyz",
+      "start": 221,
+      "token": "[API_KEY_1]"
+    },
+    {
+      "detector": "anthropic",
+      "end": 335,
+      "kind": "api_key",
+      "masked": "sk-a\u20260001",
+      "start": 288,
+      "token": "[API_KEY_2]"
+    }
+  ],
+  "remote_llm": false,
+  "source": "text",
+  "uploads": false
+}

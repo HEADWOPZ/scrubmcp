@@ -1,0 +1,8 @@
+{
+  "user": "[EMAIL_1]",
+  "phone": "[PHONE_1]",
+  "ssn": "[SSN_1]",
+  "notes": "seed phrase: [SEED_PHRASE_1]",
+  "openai": "[API_KEY_1]",
+  "anthropic": "[API_KEY_2]"
+}

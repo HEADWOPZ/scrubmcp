@@ -1,0 +1,11 @@
+Contact: Alice <alice@example.com> phone +1 415 555 0132
+SSN on file: 078-05-1120
+Recovery phrase: abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about
+openai_key=sk-proj-THISISNOTAREALOPENAIKEY_abc1234567890xyz
+github: ghp_notarealgithubtoken1234567890abcd
+aws: AKIAIOSFODNN7EXAMPLE
+slack: xoxb-123456789012-123456789012-notarealslacktoken
+stripe: sk_test_51NotARealStripeKey0001
+jwt: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJleGFtcGxlIn0.notarealsignatureabc
+assigned: api_key=n0tArealAssignedSecret99
+clean sentence: the report and the invoice are on the desk.

@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "phone": 2
+  },
+  "findings": [
+    {
+      "detector": "phone_nanp",
+      "end": 22,
+      "kind": "phone",
+      "masked": "***-***-0132",
+      "start": 7,
+      "token": "[PHONE_1]"
+    },
+    {
+      "detector": "phone_nanp",
+      "end": 41,
+      "kind": "phone",
+      "masked": "***-***-0199",
+      "start": 27,
+      "token": "[PHONE_2]"
+    }
+  ],
+  "remote_llm": false,
+  "source": "text",
+  "uploads": false
+}
